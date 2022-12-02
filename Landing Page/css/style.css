@@ -1,0 +1,142 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#header-left {
+    font-weight: 900;
+    margin-left: 200px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#header-right {
+    margin-left: auto;
+    margin-right: 200px;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 25px;
+    display: flex;
+}
+
+#header-right, #header-left {
+    margin-top: 5px;
+}
+
+#top-section {
+    background-color: #1F2937;
+}
+
+#top-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#top-content .main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#top-content .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.graphics {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.caption {
+    width: 100px;
+}
+
+.graphics img {
+    display: block;
+    border: solid;
+}
+
+#section-3 {
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #F9FAF8;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    color: #F9FAF8;
+}
+
+#signup {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: auto;
+    width: fit-content;
+    padding: 50px 0;
+}
+
+.graphics img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 6px 30px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+#signup .signup-button {
+    border-color: white;
+    border-style: solid;
+}
+
+.left {
+    width: 500px;
+    margin-left: 200px;
+}
+
+.subtext {
+    margin: 10px 0;
+}
+
+.graphics {
+    margin-bottom: 100px;
+}
+
+#section-4 {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
