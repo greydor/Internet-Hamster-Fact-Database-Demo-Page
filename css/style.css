@@ -190,3 +190,8 @@ footer {
 #signup-message {
     flex: none;
 }
+
+#button-container {
+    display: flex;
+    align-items: center;
+}
